@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather App</title>
+
+	<link rel="stylesheet" href="css/weather.css">
+
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Google jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Main jQuery -->
+	<script type="text/javascript" src="js/weather.js"></script>
+</head>
+<body>
+	
+	<!-- Header -->
+	
+	<div id="header">
+		<div id="logo">
+			<img src="images/images.jpg" alt="">
+		</div>
+		<div id="menu">
+			<ul>
+				
+				<li id="car">O nama</li>
+				<li>Home</li>
+				
+			</ul>
+		</div>
+	</div>
+
+	
+	<!-- Input -->
+	
+	<input type="text" id="city" placeholder="Upiši ime grada">
+	
+
+	<!-- Rezultati -->
+
+	<div id="rezultati">
+		<h1 id="grad"></h1>
+		<h3 id="temp"></h3>
+		<h3 id="vreme"></h3>
+		
+		<img class="ikona" src="http://openweathermap.org/img/w/10d.png" alt="">
+		
+		<h3><span>Max: </span><span id="max"></span></h3>
+		<h3><span>Min: </span><span id="min"></span><span></h3>
+	</div>
+</body>
+</html>

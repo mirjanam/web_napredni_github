@@ -1,0 +1,121 @@
+body{
+	background-color: #de6141;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+
+#header{
+	background-color:#f58c54;
+	overflow: hidden;
+}
+
+
+
+#logo{
+	float: left;
+}
+
+
+
+#menu{
+	float: right;
+	background-color: #de6141;
+	cursor: pointer;
+}
+
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+#menu li{
+	float: right;
+	list-style-type: none;
+	padding: 8px;
+	
+
+}
+
+
+#logo img {
+	width: 80px;
+	margin:5px 0 0 5px;
+}
+
+
+input#city{
+	
+	width: 50%;
+	height: 35px;
+	display: block;
+	margin: 8px auto 8px auto;
+	text-align: center;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color:  #f58c54;
+
+
+}
+
+
+input:focus{
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+
+#rezultati{
+	display: none;
+	clear: both;
+	text-align: center;
+	
+}	
+
+
+img.ikona{
+	
+	width: 70px;
+	height: 70px;
+}
+
+
+
+
+h1{
+	font-size: 45px;
+
+}
+
+
+h3#temp{
+	font-size: 25px;
+
+
+}
+
+::-webkit-input-placeholder {
+   color:  #fff;
+   font-weight: bold;
+  
+}
+
+
+::-moz-placeholder { 
+   color: #fff;
+   font-weight: bold; 
+}
+
+:-ms-input-placeholder {  
+   color: #fff;
+   font-weight: bold; 
+}
+
+
