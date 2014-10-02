@@ -1,17 +1,16 @@
 body{
-	background-color: #de6141;
+	background-color: #d54d57;
 	margin: 0;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
-	color: #fff;
+	color: #fccd7e;
 }
 
 
 #header{
-	background-color:#f58c54;
+	background-color:#fccd7e;
 	overflow: hidden;
 }
-
 
 
 #logo{
@@ -19,61 +18,54 @@ body{
 }
 
 
-
 #menu{
 	float: right;
-	background-color: #de6141;
+	
+	background-color: #d54d57;
 	cursor: pointer;
+	
 }
-
-
 #menu ul{
 	margin: 0;
 	padding: 0;
 }
-
-
 #menu li{
 	float: right;
 	list-style-type: none;
 	padding: 8px;
-	
+	color:#fccd7e;
 
 }
-
 
 #logo img {
 	width: 80px;
 	margin:5px 0 0 5px;
 }
 
-
 input#city{
 	
 	width: 50%;
-	height: 35px;
+	height: 30px;
 	display: block;
 	margin: 8px auto 8px auto;
 	text-align: center;
 	border: none;
 	outline: none;
-	border-radius: 20px;
-	background-color:  #f58c54;
+	border-radius: 15px;
+	background-color: #fccd7e;
 
 
 }
 
-
 input:focus{
-	font-size: 18px;
-	color: #fff;
+	font-size: 25px;
+	color:#d54d57;
 }
 
 
 
 
 #rezultati{
-	display: none;
 	clear: both;
 	text-align: center;
 	
@@ -81,41 +73,17 @@ input:focus{
 
 
 img.ikona{
-	
-	width: 70px;
-	height: 70px;
+	display: none;
+	width: 50px;
+	height: 50px;
 }
 
+span{
 
-
+	display: none;
+}
 
 h1{
-	font-size: 45px;
-
+	font-size: 50px;
 }
-
-
-h3#temp{
-	font-size: 25px;
-
-
-}
-
-::-webkit-input-placeholder {
-   color:  #fff;
-   font-weight: bold;
-  
-}
-
-
-::-moz-placeholder { 
-   color: #fff;
-   font-weight: bold; 
-}
-
-:-ms-input-placeholder {  
-   color: #fff;
-   font-weight: bold; 
-}
-
 
